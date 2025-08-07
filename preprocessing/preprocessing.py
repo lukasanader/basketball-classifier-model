@@ -74,4 +74,4 @@ def preprocess_data(path, rolling_window=5):
 # Run preprocessing
 final_df = preprocess_data('data/games.csv')
 final_df.to_csv('nba_game_dataset.csv', index=False)
-print("✅ Preprocessing complete.")
+print("Preprocessing complete.")
